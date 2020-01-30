@@ -27,7 +27,7 @@
         <!--<jta-data-source>java:jboss/datasources/InventoryDS</jta-data-source>-->
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://172.30.84.142/inventorydb" /> <!-- BD Mane -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://inventory-postgresql.bantrab-coolstore.svc.cluster.local/inventorydb" /> <!-- BD Mane -->
             <property name="javax.persistence.jdbc.user" value="useroHF" /> <!-- DB User -->
             <property name="javax.persistence.jdbc.password" value="PFcY64wA" /> <!-- DB Password -->
             <!-- Properties for Hibernate -->
